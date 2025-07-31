@@ -1,0 +1,66 @@
+.container {
+  max-width: 1200px;
+  font-family: Plus_Jakarta_San, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  width: 320px;
+}
+
+.inputField {
+  padding: 14px 42px 14px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  border: 1px solid #c8ead9;
+  background-color: #c8ead9;
+}
+
+.inputField::placeholder {
+  color: #6c9181;
+  font-size: 14px;
+}
+
+.inputField:focus {
+  outline: none;
+  border: 1px solid #6f986f;
+  box-shadow: 0 0 2px #488848;
+}
+
+.error {
+  border: 1px solid red;
+  box-shadow: 0 0 2px red;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clearButton {
+  right: 8px;
+}
+
+.toggleButton {
+  right: 8px;
+}
