@@ -15,7 +15,8 @@ Next.js app.
 
 Include screenshots of:
 
-![Sidebar open](./screenshots/sidebar-open.png) ![Success Toast](./screenshots/toast.png)
+![Sidebar open](./screenshots/sidebar-open.png) 
+![Success Toast](./screenshots/toast.png)
 ![Password Input](./screenshots/input.png)
 
 - Each component in at least 2 states
